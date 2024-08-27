@@ -1,0 +1,135 @@
+/*--Navbar stylings--*/
+.navbar{
+    background-color: rgb(78, 78, 170);
+    font-family: Calibri;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+/*--I have created a KS blogs as my logo--*/
+.logo a{
+    font: bold;
+    font-size: xx-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(7, 39, 2);
+}
+li{
+    display: inline-block; /* it aligns the list of navbar items in row */
+}
+/* These are some styles for nav items*/
+li a{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 10px;
+}
+li a:hover{
+    background-color: rgb(108, 58, 94); /* When we hover on it it changes its color of nav items*/
+}
+.Bg-image{
+    background-image: url(imgs/arambol-beach-goa-2@thrillophilia.jpg); /* It is used to display image in background*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    width: 100%;
+}
+/* For the title of my blog align in center by using these properties*/
+.Title{
+    color: rgb(17, 17, 17);
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/*--Blog sections--*/
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+/* Here i created three articles and these are stylings of it.*/
+section{
+    display: flex;
+    flex-wrap: wrap;        /* It arranges in rows*/
+    justify-content: center; /* content in center*/
+    margin: 20px;
+    border: 2px solid black;
+}
+/* For each article styling has done accordingly*/
+article{
+    width: 425px;
+    height: 1000;
+    background-color: bisque;
+    overflow: hidden;
+    box-shadow: 0px 2px 4px rgb(65, 65, 220);
+    margin: 20px;
+    padding: 10px;
+}
+img{
+    width: 100%;
+    height:200px;
+}
+.btn{
+    background-color: rgb(182, 182, 200);
+    border: 2px solid black;
+    /*I have created a button readmore with hovering effect*/
+}
+.btn:hover{
+    background-color: rgb(8, 108, 195);
+    color: black;
+}
+video{
+    width: 425px;
+    height: 300px;
+}
+#about{
+    background-color: rgb(115, 112, 74);
+    display: inline-block;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 3px 3px 5px rgb(83, 83, 107);
+}
+#contact{
+    background-color: rgb(99, 89, 77);
+    box-sizing: border-box;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid gray;
+}
+#contact input:hover { /* Here i have used transform style when hover on it*/
+    transform: translateZ(40px) scale(1.5);
+    box-shadow: 8px 8px 16px rgba(0, 0, 0,0.2);
+}
+input[type="submit"] {
+    background-color: darkslateblue;
+    color: white;
+}
+footer{
+    background-color: rgb(11, 11, 11);
+    color: aliceblue;
+    margin: 20px;
+    padding: 10px;
+    border: 2px solid gray;
+
+}
+p{
+    text-align: justify;
+}
+@media screen and (max-width:1000px){
+    body{
+        background-color: rgb(166, 169, 169);
+        }
+}
+    
+
+    
+
+  
+
+
+
